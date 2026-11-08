@@ -4,7 +4,13 @@ Ask questions about saved job descriptions and inspect the passages behind the a
 
 This local Python application retrieves relevant passages from ChromaDB, sends them to a model running through Ollama, and displays the answer with source references in Streamlit.
 
-[View the interface screenshot](docs/screenshots/answer.jpg)
+## Screenshots
+
+[Answer and references](docs/screenshots/answer.png)
+
+[Inspecting the retrieved evidence](docs/screenshots/source-evidence.png)
+
+[When the descriptions do not provide an answer](docs/screenshots/missing-information.png)
 
 
 ## Features
@@ -16,6 +22,20 @@ This local Python application retrieves relevant passages from ChromaDB, sends t
 - Inspect source passages in Streamlit and evaluate saved answers separately from retrieval.
 
 No LangChain, LlamaIndex, fine-tuning or hosted inference API is used.
+
+## Demo data
+
+The demo uses 40 historical job descriptions selected from the
+[vmal/jobs_dataset](https://huggingface.co/datasets/vmal/jobs_dataset)
+dataset on Hugging Face. The preparation script downloads a pinned revision
+and selects the first 40 unique cleaned descriptions containing at least
+100 words.
+
+See [data and provenance](docs/DATA.md) for the revision, selection process
+and reuse information.
+
+The current interface searches this prepared collection. It does not
+provide document upload or editing.
 
 ## Run locally on Windows
 
@@ -76,4 +96,4 @@ Observed errors include incomplete answers, selecting the wrong qualification, a
 - `tests/`: deterministic application tests.
 - `docs/`: architecture, data provenance and evaluation review.
 
-Downloaded descriptions, embeddings, local environments, raw diagnostic logs and development backups are excluded from version control. A screenshot of the running interface is included under `docs/screenshots/`.
+Downloaded descriptions, embeddings, local environments, raw diagnostic logs and development backups are excluded from version control.
