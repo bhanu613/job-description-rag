@@ -1,0 +1,31 @@
+# Local runtime and downloaded data
+.venv/
+__pycache__/
+*.py[cod]
+/chroma_data/
+/data/
+/evaluation/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local development history, preserved on disk
+/backup*/
+/audit/
+/checks/
+*.zip
+/app_before_polish.py
+/rag_m04_snapshot.py
+/smoke_test.py
+/retrieve.py
+/prepare_evaluation.py
+/probe_generation*.py
+/REPAIR_INSTRUCTIONS.md
+/INTEGRATION_INSTRUCTIONS.md
+/REPOSITORY_SETUP.md
+/.gitignore_before_repository
+
+/docs/REFERENCE_PREPARATION.md

@@ -1,0 +1,237 @@
+{
+  "dataset": "vmal/jobs_dataset",
+  "revision": "b40383db90f0bb8ecadc3f33794d9dfe65c085a6",
+  "sets": {
+    "questions_final.csv": [
+      {
+        "question_id": "Q01",
+        "type": "answerable",
+        "question": "What is the preferred qualification for the Product Manager, Looker role?",
+        "expected_source_id": "JOB-00010",
+        "expected_answer": "The ability to craft a product goal, strategy, and roadmap.",
+        "evidence_selector": {
+          "description_sha256": "2e9feef94d8edbbe8be4eb526f464191b39871fa45e38857a41574963c9f5f7d",
+          "start": 422,
+          "end": 499
+        }
+      },
+      {
+        "question_id": "Q02",
+        "type": "answerable",
+        "question": "How does the Product Manager for Looker drive adoption and awareness?",
+        "expected_source_id": "JOB-00010",
+        "expected_answer": "By enabling the field Sales and Marketing teams.",
+        "evidence_selector": {
+          "description_sha256": "2e9feef94d8edbbe8be4eb526f464191b39871fa45e38857a41574963c9f5f7d",
+          "start": 1550,
+          "end": 1632
+        }
+      },
+      {
+        "question_id": "Q03",
+        "type": "answerable",
+        "question": "In what language must applicants submit their resumes for the Manager, Government Affairs and Public Policy role?",
+        "expected_source_id": "JOB-00001",
+        "expected_answer": "English.",
+        "evidence_selector": {
+          "description_sha256": "061874191683f8544d8a818b4b4289839f2573c608ecf3a9af86259c161004b8",
+          "start": 427,
+          "end": 527
+        }
+      },
+      {
+        "question_id": "Q04",
+        "type": "answerable",
+        "question": "Who does the Manager, Government Affairs and Public Policy engage with to shape policy dialogue?",
+        "expected_source_id": "JOB-00001",
+        "expected_answer": "Multilateral organizations, policymakers, industry players, think tanks, civil society, and key opinion formers.",
+        "evidence_selector": {
+          "description_sha256": "061874191683f8544d8a818b4b4289839f2573c608ecf3a9af86259c161004b8",
+          "start": 2726,
+          "end": 2916
+        }
+      },
+      {
+        "question_id": "Q05",
+        "type": "answerable",
+        "question": "What kind of trade-off analysis is the Senior CPU Architect expected to perform?",
+        "expected_source_id": "JOB-00023",
+        "expected_answer": "Performance, Power, Area (PPA) trade-off analysis.",
+        "evidence_selector": {
+          "description_sha256": "0232b351081231bc4319f20617fde86a05f63a46abd13d0c6ec01e7edce86d45",
+          "start": 1302,
+          "end": 1407
+        }
+      },
+      {
+        "question_id": "Q06",
+        "type": "answerable",
+        "question": "Where will the Senior CPU Architect, Google Cloud be located?",
+        "expected_source_id": "JOB-00023",
+        "expected_answer": "Tel Aviv or Haifa, Israel.",
+        "evidence_selector": {
+          "description_sha256": "0232b351081231bc4319f20617fde86a05f63a46abd13d0c6ec01e7edce86d45",
+          "start": 414,
+          "end": 445
+        }
+      },
+      {
+        "question_id": "Q07",
+        "type": "answerable",
+        "question": "What specific shell scripting tools are mentioned as minimum qualifications for the Circuit Design Engineer, Silicon role?",
+        "expected_source_id": "JOB-00039",
+        "expected_answer": "sed and awk.",
+        "evidence_selector": {
+          "description_sha256": "e02577caf3162f6b8b273c4ccb08c839b213937c24b22328c631437d2e574762",
+          "start": 486,
+          "end": 533
+        }
+      },
+      {
+        "question_id": "Q08",
+        "type": "answerable",
+        "question": "What advanced degree is preferred for the Circuit Design Engineer, Silicon position?",
+        "expected_source_id": "JOB-00039",
+        "expected_answer": "A Master's degree in VLSI, Computer Engineering, or Electronics Engineering.",
+        "evidence_selector": {
+          "description_sha256": "e02577caf3162f6b8b273c4ccb08c839b213937c24b22328c631437d2e574762",
+          "start": 560,
+          "end": 633
+        }
+      },
+      {
+        "question_id": "Q09",
+        "type": "answerable",
+        "question": "What is the US base salary range for the Software Engineer III, Engineering Productivity position?",
+        "expected_source_id": "JOB-00036",
+        "expected_answer": "$136,000 to $200,000.",
+        "evidence_selector": {
+          "description_sha256": "b49503222daf4b7c6854204487f5e3f1db3d7a43abdfc86ae8f414f1679e0f61",
+          "start": 2836,
+          "end": 2938
+        }
+      },
+      {
+        "question_id": "Q10",
+        "type": "answerable",
+        "question": "What kind of technologies should the Software Engineer III, Engineering Productivity have experience developing as a preferred qualification?",
+        "expected_source_id": "JOB-00036",
+        "expected_answer": "Accessible technologies.",
+        "evidence_selector": {
+          "description_sha256": "b49503222daf4b7c6854204487f5e3f1db3d7a43abdfc86ae8f414f1679e0f61",
+          "start": 1160,
+          "end": 1206
+        }
+      },
+      {
+        "question_id": "Q11",
+        "type": "answerable",
+        "question": "Where is the Senior Systems Software Engineer, GPU, Platforms role located?",
+        "expected_source_id": "JOB-00005",
+        "expected_answer": "Taipei, Taiwan.",
+        "evidence_selector": {
+          "description_sha256": "d0d817998ccbd44768479d7070b9dc45e5fd74ee81d52b975d1868aab02b53dd",
+          "start": 130,
+          "end": 144
+        }
+      },
+      {
+        "question_id": "Q12",
+        "type": "answerable",
+        "question": "What kind of services does the GPU System Software team power according to the Senior Systems Software Engineer description?",
+        "expected_source_id": "JOB-00005",
+        "expected_answer": "Google Cloud, YouTube, and DeepMind.",
+        "evidence_selector": {
+          "description_sha256": "d0d817998ccbd44768479d7070b9dc45e5fd74ee81d52b975d1868aab02b53dd",
+          "start": 2018,
+          "end": 2185
+        }
+      },
+      {
+        "question_id": "Q13",
+        "type": "missing_information",
+        "question": "Who will the Product Manager, Looker report to directly?",
+        "expected_source_id": "",
+        "expected_answer": "The supplied passages do not provide that information."
+      },
+      {
+        "question_id": "Q14",
+        "type": "missing_information",
+        "question": "What is the exact start date for the Manager, Government Affairs and Public Policy position?",
+        "expected_source_id": "",
+        "expected_answer": "The supplied passages do not provide that information."
+      },
+      {
+        "question_id": "Q15",
+        "type": "missing_information",
+        "question": "Does the Senior CPU Architect, Google Cloud role require travel between the Tel Aviv and Haifa offices?",
+        "expected_source_id": "",
+        "expected_answer": "The supplied passages do not provide that information."
+      }
+    ],
+    "questions_fresh.csv": [
+      {
+        "question_id": "F01",
+        "type": "answerable",
+        "question": "In which city and country is the Product Manager, Looker role based?",
+        "expected_source_id": "JOB-00010",
+        "expected_answer": "Hyderabad, India.",
+        "evidence_selector": {
+          "description_sha256": "2e9feef94d8edbbe8be4eb526f464191b39871fa45e38857a41574963c9f5f7d",
+          "start": 105,
+          "end": 132
+        }
+      },
+      {
+        "question_id": "F02",
+        "type": "answerable",
+        "question": "In which city and country is the Manager, Government Affairs and Public Policy (English, Spanish) role based?",
+        "expected_source_id": "JOB-00001",
+        "expected_answer": "Santiago, Chile.",
+        "evidence_selector": {
+          "description_sha256": "061874191683f8544d8a818b4b4289839f2573c608ecf3a9af86259c161004b8",
+          "start": 146,
+          "end": 161
+        }
+      },
+      {
+        "question_id": "F03",
+        "type": "answerable",
+        "question": "For which hardware designs does the Senior CPU Architect, Google Cloud lead architectural definition?",
+        "expected_source_id": "JOB-00023",
+        "expected_answer": "CPU core designs.",
+        "evidence_selector": {
+          "description_sha256": "0232b351081231bc4319f20617fde86a05f63a46abd13d0c6ec01e7edce86d45",
+          "start": 1017,
+          "end": 1104
+        }
+      },
+      {
+        "question_id": "F04",
+        "type": "answerable",
+        "question": "Which circuit simulator or alternative does the Circuit Design Engineer, Silicon role list in its minimum qualifications?",
+        "expected_source_id": "JOB-00039",
+        "expected_answer": "HSPICE or an equivalent circuit simulator.",
+        "evidence_selector": {
+          "description_sha256": "e02577caf3162f6b8b273c4ccb08c839b213937c24b22328c631437d2e574762",
+          "start": 405,
+          "end": 485
+        }
+      },
+      {
+        "question_id": "F05",
+        "type": "missing_information",
+        "question": "What exact monthly home-office allowance does the Senior Systems Software Engineer, GPU, Platforms role provide?",
+        "expected_source_id": "",
+        "expected_answer": "The supplied passages do not provide that information."
+      },
+      {
+        "question_id": "F06",
+        "type": "missing_information",
+        "question": "What is the exact application closing date for the Software Engineer III, Engineering Productivity, Google Cloud Platforms role?",
+        "expected_source_id": "",
+        "expected_answer": "The supplied passages do not provide that information."
+      }
+    ]
+  }
+}
